@@ -1,0 +1,58 @@
+-- phpMyAdmin SQL Dump
+-- version 5.2.1
+-- https://www.phpmyadmin.net/
+--
+-- Host: 127.0.0.1
+-- Generation Time: Jul 08, 2024 at 03:04 PM
+-- Server version: 10.4.32-MariaDB
+-- PHP Version: 8.2.12
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+START TRANSACTION;
+SET time_zone = "+00:00";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8mb4 */;
+
+--
+-- Database: `tops`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `employee details`
+--
+
+CREATE TABLE `employee details` (
+  `EMPNO` int(11) NOT NULL,
+  `FIRST_NAME` varchar(30) NOT NULL,
+  `LAST_NAME` varchar(30) NOT NULL,
+  `DESIGNATION` varchar(30) NOT NULL,
+  `HIREDATE` date NOT NULL,
+  `SALARY` int(11) NOT NULL,
+  `COMM` int(11) NOT NULL,
+  `DEPTNO` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `employee details`
+--
+
+INSERT INTO `employee details` (`EMPNO`, `FIRST_NAME`, `LAST_NAME`, `DESIGNATION`, `HIREDATE`, `SALARY`, `COMM`, `DEPTNO`) VALUES
+(1001, 'STEFAN', 'SALVATORE', 'BUSSINESS ANALYST', '0000-00-00', 50000, 0, 0),
+(1002, 'DIANA', 'LORRENCE', 'TECHNITAL ARCHITECT', '0000-00-00', 70000, 0, 10),
+(1003, 'JAMES', 'MADINSAON', 'MANAGER', '0000-00-00', 80400, 0, 40),
+(1004, 'JONES', 'NOCK', 'HR ANALYST', '0000-00-00', 47000, 0, 30),
+(1005, 'LUCY', 'GELLLER', 'HR ASSOCIATE', '0000-00-00', 35000, 200, 30),
+(1006, 'ISAAC', 'STEFAN', 'TRAINEE', '2015-12-13', 20000, 0, 40),
+(1007, 'JOHN', 'SMITH', 'CLERK', '2005-12-17', 12000, 0, 10),
+(1008, 'NANCY', 'GILLBERT', 'SALESMAN', '1981-02-20', 18000, 300, 10);
+COMMIT;
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
