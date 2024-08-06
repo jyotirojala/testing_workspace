@@ -15,8 +15,12 @@ Exploratory testing is a new way of thinking.Automation has its limits. its not 
 A software process should help you keeping the virtual table up-to-date.\par
  \b What is Boundary value testing?\par
 \b0 Boundary value Analysis is a methodology for designing test cases that concentrates software testing effort on case near the limits of valid ranges.\par
-\f1\'b7\f0  What is Equivalence partitioning testing?\par
-\b  What is Integration testing?\par
+Boundry value analysis is a method which refines equivalene oartitioning.\par
+\b  What is Equivalence partitioning testing?\par
+
+\pard\sa200\sl276\slmult1\b0 Equivalence partitioning is a Black box testing technique that allows testers to group input data into sets or classes, making it possible to reduce the number of test cases while still achieving comprehensive coverage. This technique is particulary useful when dealing with a large range of input values.\par
+
+\pard\sa200\sl276\slmult1\b What is Integration testing?\par
 \b0 Integration testing is a level of the software testing process where individual units are combined and tested as agroup.\par
 Integration testing is done by a specific integration tester or test team.\par
 There are 2 levels of integration testing:\par
@@ -42,7 +46,10 @@ It is the testing of "how" the system works. Non-Functional testing may be perfo
 \f1\'b7\f0  What is Adhoc testing?\par
 \f1\'b7\f0  What is load testing?\par
 \f1\'b7\f0  What is stress Testing?\par
-\f1\'b7\f0  What is white box testing and list the types of white box testing?\par
+ \b What is white box testing and list the types of white box testing?\par
+\b0 White box testing is a software testing technique that involves testing the internal structure and workings of a  software application. The tester has access to the source code and uses this knowledge to design test cases that can verify the correctness of the software at the code level\par
+\b\par
+\b0\par
 \b  What is black box testing? What are the different black box testing techniques?\par
 \b0 Testing, either functional or non-functional, without reference to the internal structure of the component or system.\par
 The technique of testing without having any knowledge of the interior workings of the application is black box testing.\par
