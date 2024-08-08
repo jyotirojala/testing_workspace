@@ -17,10 +17,8 @@ A software process should help you keeping the virtual table up-to-date.\par
 \b0 Boundary value Analysis is a methodology for designing test cases that concentrates software testing effort on case near the limits of valid ranges.\par
 Boundry value analysis is a method which refines equivalene oartitioning.\par
 \b  What is Equivalence partitioning testing?\par
-
-\pard\sa200\sl276\slmult1\b0 Equivalence partitioning is a Black box testing technique that allows testers to group input data into sets or classes, making it possible to reduce the number of test cases while still achieving comprehensive coverage. This technique is particulary useful when dealing with a large range of input values.\par
-
-\pard\sa200\sl276\slmult1\b What is Integration testing?\par
+\b0 Equivalence partitioning is a Black box testing technique that allows testers to group input data into sets or classes, making it possible to reduce the number of test cases while still achieving comprehensive coverage. This technique is particulary useful when dealing with a large range of input values.\par
+\b What is Integration testing?\par
 \b0 Integration testing is a level of the software testing process where individual units are combined and tested as agroup.\par
 Integration testing is done by a specific integration tester or test team.\par
 There are 2 levels of integration testing:\par
@@ -47,15 +45,26 @@ It is the testing of "how" the system works. Non-Functional testing may be perfo
 \f1\'b7\f0  What is load testing?\par
 \f1\'b7\f0  What is stress Testing?\par
  \b What is white box testing and list the types of white box testing?\par
-\b0 White box testing is a software testing technique that involves testing the internal structure and workings of a  software application. The tester has access to the source code and uses this knowledge to design test cases that can verify the correctness of the software at the code level\par
-\b\par
-\b0\par
-\b  What is black box testing? What are the different black box testing techniques?\par
+\b0 White box testing is a software testing technique that involves testing the internal structure and workings of a  software application. The tester has access to the source code and uses this knowledge to design test cases that can verify the correctness of the software at the code level.\par
+Structure-based testing technique is also know as white-box or glass-box testing technique because here the testers require knowledge of how the software is implemented, how it works.\par
+In white box testing the tester is concentrating on how the software does it. For example, a structural tecnique may be concerned with exercising loops in the software.\par
+\b Types of white box testing: \b0 white box testing can be done for different purpoes. The three main types are:\par
+1. Unit Testing\par
+2. Integration Testing\par
+3. Regression Testing\par
+\b What is black box testing? What are the different black box testing techniques?\par
 \b0 Testing, either functional or non-functional, without reference to the internal structure of the component or system.\par
 The technique of testing without having any knowledge of the interior workings of the application is black box testing.\par
 \f1\'b7\f0  Mention what are the categories of defects?\par
-\f1\'b7\f0  Mention what bigbang testing is?\par
-\f1\'b7\f0  What is the purpose of exit criteria?\par
+ \b Mention what bigbang testing is?\par
+ \b0 Big bang integration testing is a testing approach where all components or modules are integrated and tested as a single unit. THis is done after all modules have been completed and before any system-level testing is performed.\par
+ \b What is the purpose of exit criteria?\par
+
+\pard\sa200\sl276\slmult1\b0 successful testing of integrated application.\par
+
+\pard\sa200\sl276\slmult1 Executed test case are documented.\par
+All high prioritized bugs fixed and closed.\par
+Technical documents to be submitted followed by release notes.\par
 \f1\'b7\f0  When should "Regression Testing" be performed?\par
 \f1\'b7\f0  What is 7 key principles? Explain in detail?\par
  \b Difference between QA v/s QC v/s Tester\par
